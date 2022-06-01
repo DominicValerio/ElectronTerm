@@ -1,3 +1,3 @@
-Terminal Emulator made with electron
+Terminal Emulator made with electronjs
 
 <img src="res/screenshot.png">
