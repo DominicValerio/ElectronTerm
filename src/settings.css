@@ -1,0 +1,36 @@
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:400;
+}
+
+#settings {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.list-item label,
+.list-item input {
+  /* In order to define widths */
+  display: inline-block;
+}
+
+.list-item label {
+  width: 30%;
+  /* Positions the label text beside the input */
+  text-align: left;
+}
+
+.list-item input {
+  width: 60%
+}
+
+.list-item label + .list-item input {
+  width: 15%;
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  margin: 0 30% 0 4%;
+}
+
+.list-item input:focus {
+  outline: none;
+}

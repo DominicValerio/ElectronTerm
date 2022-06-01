@@ -1,0 +1,14 @@
+{
+	"data": {
+		"commandHistory": []
+	},
+	"settings": {
+		"shortcutMap": {
+			"py": "python",
+			"sh": "bash",
+			"java": "java"
+		},
+		"defaultShellPath": "powershell.exe",
+		"defaultWorkingDirPath": "C:\\Users\\DEVal\\SourceCode\\ElectronTerminal"
+	}
+}

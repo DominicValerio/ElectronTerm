@@ -1,0 +1,27 @@
+#command {
+  width: 20%;
+  height: 10%;
+}
+
+#command:focus {
+  outline: none;
+}
+
+#terminal {
+  /*border-radius: 15px !important;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+/*hide scrollbar*/
+body {
+  overflow: hidden;
+}
+
+/* #span {
+  color: black;
+  background-color: black;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+} */
