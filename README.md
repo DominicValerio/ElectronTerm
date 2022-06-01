@@ -1,3 +1,3 @@
 Terminal Emulator made with electron
 
-<img src="screenshot.png">
+<img src="res/screenshot.png">
