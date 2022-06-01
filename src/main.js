@@ -57,8 +57,6 @@ function initMainWindow() {
     shell.onData((data) => {
       mainWindow.webContents.send('program', data)
     })
-
-    shell.write("echo hello world")
     
   }, (rejected) => {
     mainWindow.webContents.send('program', {stderr: rejected})
